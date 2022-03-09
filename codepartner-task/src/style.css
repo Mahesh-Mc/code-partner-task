@@ -1,0 +1,521 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #999;
+}
+
+/* All component container */
+.all-container {
+  background: #fff;
+}
+
+/********************* Navigation styling **************/
+
+/* Main width */
+.nav-container {
+  /* background-color: red; */
+  background: #fff;
+  width: 90%;
+  padding: 5px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.nav-container .logo {
+  position: relative;
+}
+
+/* Logo Div */
+/* .logo {
+  display: inline;
+} */
+
+.nav-container .logo .logoUpOne,
+.logoDownOne {
+  width: 30px;
+  margin-top: auto;
+  margin-left: 40px;
+  position: absolute;
+}
+
+.nav-container .logo .logoUpOne {
+  width: 30px;
+  top: 5px;
+  margin-left: 0;
+}
+
+.nav-container .logo .logoDownOne {
+  width: 30px;
+  top: 15px;
+  margin-left: 0;
+}
+
+/* Pages Div */
+.pages {
+  display: inline-block;
+}
+
+ul {
+  width: 300px;
+  list-style-type: none;
+  background-color: #fff;
+  overflow: hidden;
+  margin-left: 110px;
+  display: inline-block;
+  padding: 10px;
+}
+
+li {
+  float: left;
+}
+
+.navMarginRight {
+  margin-right: 20px;
+}
+
+/* Search container */
+.search-container {
+  display: inline-block;
+  margin-right: 200px;
+}
+
+.search-container {
+  float: right;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.input-container {
+  border-top: #fff;
+  border-right: #fff;
+  border-left: #fff;
+  border-bottom: #333;
+  padding: 5px;
+}
+
+/* Msgnifying glass icon */
+
+.maginfy-container {
+  margin-top: 10px;
+  border: none;
+  padding-right: 6px;
+  padding: 5px;
+  background: #fff;
+}
+
+/* Login text container */
+
+/********************* Banner styling **************/
+
+/* Banner Left */
+.banner-container {
+  /* background: purple; */
+  background: white;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.banner-left {
+  width: 567px;
+  /* background-color: aqua; */
+}
+
+.banner-left h1 {
+  width: 330px;
+  height: 225px;
+  font-family: "Roboto", sans-serif;
+  font-size: 75px;
+  /* background: pink; */
+  /* background: white; */
+  margin-left: 180px;
+  margin-bottom: 70px;
+  display: inline-block;
+}
+
+.banner-left .banner-subtitle {
+  /* background-color: blue; */
+  width: 330px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  word-spacing: 3px;
+  margin-left: 180px;
+  margin-bottom: 30px;
+}
+
+.banner-left .banner-button {
+  width: 230px;
+  height: 38px;
+  margin-left: 180px;
+  margin-bottom: 5px;
+}
+
+.banner-left .banner-text {
+  margin-left: 180px;
+}
+
+.banner-left .banner-text span {
+  color: #999;
+}
+
+.banner-left .banner-text a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Banner Right */
+
+.banner-right img {
+  width: 235px;
+  height: 330px;
+  background-color: bisque;
+  position: absolute;
+  top: 5px;
+  right: 150px;
+  margin-top: 20px;
+  border-radius: 10px;
+  transform: rotate(6deg); /* Equal to rotateZ(45deg) */
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 40%), 0 6px 20px 0 rgb(0 0 0 / 40%);
+  z-index: 1;
+}
+
+.image-backShade {
+  width: 235px;
+  height: 330px;
+  background-color: rgb(204, 239, 253);
+  position: absolute;
+  top: 26px;
+  right: 188px;
+  margin-top: 20px;
+  border-radius: 10px;
+  transform: rotate(-6deg); /*Equal to rotateZ(45deg) */
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 40%), 0 6px 20px 0 rgb(0 0 0 / 40%);
+  z-index: 0;
+}
+
+/************** WHat we do container  ***********/
+.whatWeDo-container {
+  /* background-color: #2196f3; */
+  background-color: #fff;
+  display: grid;
+  height: 300px;
+  width: 75%;
+  margin: auto;
+  align-content: space-evenly;
+  grid-template-columns: auto auto auto;
+  /* gap: 10px; */
+
+  padding: 10px;
+  padding-left: 90px;
+}
+
+.whatWeDo-container > div {
+  background-color: #fff;
+  /* text-align: center; */
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.whatWeDo-card {
+  width: 177px;
+  /* height: 200px; */
+  /* background-color: yellow; */
+  /* padding-top: 40px; */
+  position: relative;
+}
+
+.whatWeDo-card img {
+  width: 17px;
+  border-radius: 50%;
+  background-color: #000;
+  position: absolute;
+  top: 4px;
+  margin-left: 4px;
+}
+
+.whatWeDo-card div {
+  width: 25px;
+  height: 25px;
+  background: #000;
+  position: absolute;
+  top: 0;
+  border-radius: 50%;
+}
+
+.whatWeDo-card h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  margin-top: 25px;
+}
+
+.whatWeDo-card p {
+  margin-top: 15px;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*************** WHY CHOOSE US STYLING ***************/
+.whyChooseUs-container {
+  /* background-color: maroon; */
+  width: 75%;
+  /* height: 850px; */
+  margin: auto;
+  overflow: auto;
+  margin-bottom: 50px;
+}
+
+.whyChooseUs-container .whyChooseUs-left {
+  /* background-color: hotpink; */
+  width: 300px;
+  float: left;
+  font-family: "Roboto", sans-serif;
+  margin-top: 110px;
+  margin-left: 90px;
+}
+
+.whyChooseUs-container .whyChooseUs-left h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.whyChooseUs-container .whyChooseUs-left .para-1 {
+  margin-bottom: 30px;
+  font-size: 13px;
+  color: #292929;
+}
+
+.whyChooseUs-container .whyChooseUs-left ul {
+  width: 400px;
+  list-style-type: none;
+  background-color: #fff;
+  overflow: hidden;
+  margin-left: 0px;
+  display: inline-block;
+  padding: 10px;
+  line-height: 200%;
+  margin-bottom: 20px;
+}
+
+.whyChooseUs-container .whyChooseUs-left ul li {
+  font-size: 12px;
+  color: #474747;
+  display: block;
+}
+
+.whyChooseUs-container .whyChooseUs-left ul li .right-tick {
+  margin-right: 10px;
+}
+
+.whyChooseUs-container .whyChooseUs-left ul li .underline-text {
+  text-decoration: underline;
+}
+
+.whyChooseUs-container .whyChooseUs-left div .whyChooseUs-button {
+  width: 200px;
+  height: 35px;
+  background-color: #000;
+  color: #fff;
+  /* display: block;
+  margin: auto; */
+}
+
+.whyChooseUs-container .whyChooseUs-right {
+  float: right;
+}
+
+.whyChooseUs-container .whyChooseUs-right img {
+  width: 470px;
+  height: 496px;
+}
+
+/*************** JOIN US STYLING ***************/
+.joinus-container {
+  width: 100%;
+  /* background-color: lightcoral; */
+  background-color: #000;
+  color: #fff;
+  margin: auto;
+  overflow: auto;
+  padding-top: 80px;
+  padding-bottom: 90px;
+  margin-bottom: 20px;
+}
+
+.joinus-container .content-left {
+  width: 300px;
+  float: left;
+  margin-left: 300px;
+}
+
+.joinus-container .content-right {
+  width: 300px;
+  line-height: 150%;
+  float: right;
+  margin-right: 300px;
+  padding-top: 30px;
+}
+
+.joinus-container .content-left h1 {
+  font-family: sans-serif;
+  font-size: 45px;
+}
+
+.joinus-container .content-right button {
+  width: 180px;
+  height: 48px;
+  margin-top: 20px;
+  font-size: 13px;
+  border-radius: 7px;
+}
+/*************** FOOTER STYLING ***************/
+
+.footer-container {
+  /* background-color: olive; */
+  background-color: #fff;
+  display: grid;
+  /* height: 500px; */
+  width: 75%;
+  margin: auto;
+  align-content: space-evenly;
+  grid-template-columns: auto auto auto auto;
+  /* gap: 10px; */
+  padding: 10px;
+  padding-left: 90px;
+  position: relative;
+}
+
+.footer-container .col-1 {
+  position: relative;
+}
+
+.footer-container > div {
+  /* background-color: aqua; */
+  background-color: #fff;
+  /* text-align: center; */
+  padding: 20px 0;
+  font-size: 30px;
+  height: 320px;
+}
+
+.footer-container p {
+  font-size: 13px;
+  font-family: sans-serif;
+  line-height: 200%;
+}
+
+.footer-container .foot-heading {
+  margin-bottom: 30px;
+  color: #777;
+}
+
+.footer-container .col-1 h3 {
+  margin-left: 40px;
+  display: inline-block;
+  width: fit-content;
+  font-size: 20px;
+  font-family: "League Gothic", sans-serif;
+  background: linear-gradient(to right, blue, rgb(192, 229, 253));
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+.footer-container .col-1 h3 {
+  background: linear-gradient(to right, blue, rgb(192, 229, 253));
+  color: transparent;
+  background-clip: text;
+}
+
+.footer-container .col-1 h3 {
+  /* 👇 show a solid color in older browsers (e.g., IE11) */
+  /* color: darkblue; */
+
+  /* 👇 show the text gradient in modern browsers */
+  @supports (--css: variables) {
+    background: linear-gradient(to right, blue, rgb(192, 229, 253));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}
+
+/* .footer-container .col-1 img {
+  width: 20px;
+  display: inline-block;
+  position: absolute;
+  top: 29px;
+  margin-left: 10px;
+} */
+
+.footer-container .col-1 .logoUpOne,
+.logoDownOne {
+  position: absolute;
+}
+
+.footer-container .col-1 .logoUpOne {
+  width: 25px;
+  top: 27px;
+  margin-left: 8px;
+}
+
+.footer-container .col-1 .logoDownOne {
+  width: 25px;
+  top: 37px;
+  margin-left: 8px;
+}
+
+.footer-container .col-4 .margin-para {
+  margin-bottom: 20px;
+}
+
+.footer-container .col-4 .input-para {
+  position: relative;
+  /* background-color: aqua; */
+  width: fit-content;
+  color: #999;
+}
+
+.footer-container .col-4 input {
+  width: 220px;
+  height: 35px;
+  /* border-right: #fff; */
+}
+
+/* .footer-container .col-4 {
+  position: relative;
+} */
+
+.footer-container .col-4 .signUpButton {
+  width: 80px;
+  height: 35px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.footer-container table {
+  /* background-color: magenta; */
+  width: 75%;
+  position: absolute;
+  bottom: 10px;
+  left: 180px;
+}
+
+.footer-container table td {
+  width: 15px;
+  font-family: sans-serif;
+  font-size: small;
+}
